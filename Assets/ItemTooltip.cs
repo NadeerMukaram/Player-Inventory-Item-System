@@ -82,6 +82,8 @@ public class ItemTooltip : MonoBehaviour, IPointerClickHandler
 
             // You might want to activate/deactivate or perform additional actions based on your requirements
             Destroy(itemDestroy);
+
+            HideTooltip();
         }
         else
         {
